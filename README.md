@@ -1,4 +1,6 @@
-# Teachers Pay Teachers Scraping Scripts
+# TPT SPIDER
+
+![alt text](<TPT-spider-Cover IMAGE.jpg>)
 
 These two **Python** scripts enable you to scrape essential data from your **Teachers Pay Teachers (TPT)** store:
 
@@ -74,11 +76,15 @@ If your Python path is different (like `/opt/homebrew/bin/python3`), use that pa
 - **Purpose**: Scrapes product-level data (Title, Price, Grade Levels, Product Link) from all pages of your TPT store.  
 - **Output**: Writes to **Spider-2-Data.xlsx**, creating or updating columns for each new scrape to track price changes over time.
 
+![alt text](Spider-1-Output.png)
+
 ---
 
 ### `spider-2-script.py`
 - **Purpose**: Scrapes store-wide data (5-Star Rating, Number of Reviews, Followers, and Number of Products).  
 - **Output**: Writes to **Spider-1-Data.xlsx**, appending a new row with a timestamp each time you run it.
+
+![alt text](Spider-2-Output.png)
 
 ---
 
