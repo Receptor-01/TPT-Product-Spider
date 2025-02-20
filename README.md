@@ -66,9 +66,6 @@ If your Python path is different (like `/opt/homebrew/bin/python3`), use that pa
    python `spider-1-script.py`
    python `spider-2-script.py`
 
-
-
-
 --- 
 
 ## Scripts Description
