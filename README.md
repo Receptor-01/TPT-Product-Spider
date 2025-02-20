@@ -58,12 +58,11 @@ These scripts rely on **Selenium** and **webdriver_manager** to navigate TPT pro
 Install dependencies:
 
     ```bash
-    pip install selenium webdriver-manager openpyxl
-   ```
+    pip install selenium webdriver-manager openpyxl 
+    ```
 
 
----
-
+--- 
 
 
 <h2 align="center"> Usage </h2>
@@ -119,7 +118,7 @@ Install dependencies:
 
 
 
-<h2 align="center"> Troubleshooting
+<h2 align="center"> Troubleshooting </h2>
 
 - **Chrome Driver Issues**: Ensure that `webdriver_manager` is installed. If you’re behind a firewall, you may need special permissions.  
 - **Excel File Errors**: Close the Excel file if it’s open; ensure you have read/write permissions.  
