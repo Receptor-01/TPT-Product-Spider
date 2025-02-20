@@ -70,18 +70,27 @@ If your Python path is different (like `/opt/homebrew/bin/python3`), use that pa
 
 ## Scripts Description
 
-`spider-1-script.py`
+### `spider-1-script.py`
+- **Purpose**: Scrapes product-level data (Title, Price, Grade Levels, Product Link) from all pages of your TPT store.  
+- **Output**: Writes to **Spider-2-Data.xlsx**, creating or updating columns for each new scrape to track price changes over time.
 
-Purpose: Scrapes product-level data (Title, Price, Grade Levels, Product Link) from all pages of your TPT store.
+---
 
-Output: Writes to Spider-2-Data.xlsx, creating or updating columns for each new scrape to track price changes over time.
-spider-2-script.py
-Purpose: Scrapes store-wide data (5-Star Rating, Number of Reviews, Followers, and Number of Products).
-Output: Writes to Spider-1-Data.xlsx, appending a new row with a timestamp each time you run it.
-Data Storage
-Spider-2-Data.xlsx: Stores product-level details. Each run adds new columns for updated price info, so you can track historical changes.
-Spider-1-Data.xlsx: Stores store-wide stats. Each run creates a new row with fresh metrics and a timestamp.
-Troubleshooting
-Chrome Driver Issues: Ensure that webdriver_manager is installed. If behind a firewall, you may need special permissions.
-Excel File Errors: Close the Excel file if open; ensure you have read/write permissions.
-Selectors/Elements Not Found: The TPT site might update its layout or class names. Inspect and adjust the script's CSS selectors or XPaths accordingly.
+### `spider-2-script.py`
+- **Purpose**: Scrapes store-wide data (5-Star Rating, Number of Reviews, Followers, and Number of Products).  
+- **Output**: Writes to **Spider-1-Data.xlsx**, appending a new row with a timestamp each time you run it.
+
+---
+
+## Data Storage
+
+- **Spider-2-Data.xlsx**: Stores product-level details. Each run adds new columns for updated price info, so you can track historical changes.  
+- **Spider-1-Data.xlsx**: Stores store-wide stats. Each run creates a new row with fresh metrics and a timestamp.
+
+---
+
+## Troubleshooting
+
+- **Chrome Driver Issues**: Ensure that `webdriver_manager` is installed. If you’re behind a firewall, you may need special permissions.  
+- **Excel File Errors**: Close the Excel file if it’s open; ensure you have read/write permissions.  
+- **Selectors/Elements Not Found**: The TPT site might update its layout or class names. Inspect and adjust the scripts’ CSS selectors or XPaths as needed.
