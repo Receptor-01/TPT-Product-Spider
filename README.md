@@ -59,16 +59,6 @@ Install dependencies:
     pip install selenium webdriver-manager openpyxl
 
 
-
-
-
-
-### If your Python path is different
-
-If your Python path is different (like `/opt/homebrew/bin/python3`), use that path when installing.
-
-
-
 ---
 
 
