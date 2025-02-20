@@ -62,12 +62,11 @@ If your Python path is different (like `/opt/homebrew/bin/python3`), use that pa
 2. **Edit** each scripts `store_url` variable to match your TPT store URL.
 3. **Run** one of the scripts:
 
-
     ```bash
    python `spider-1-script.py`
-   
 
-or
+
+      or
 
     ```bash
    python `spider-2-script.py`
