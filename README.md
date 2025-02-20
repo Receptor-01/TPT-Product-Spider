@@ -40,7 +40,7 @@ These scripts rely on **Selenium** and **webdriver_manager** to navigate TPT pro
 - **Automated Web Scraping**: No manual effort required once set up.  
 - **Excel Integration**: Outputs neatly into `.xlsx` files.  
 - **Configurable**: Easily change store URLs and workbook names.  
-- **Lightweight**: Removed all verbose logging for clarity.
+
 
 
 ---
