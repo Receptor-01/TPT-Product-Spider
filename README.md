@@ -43,8 +43,11 @@ These scripts rely on **Selenium** and **webdriver_manager** to navigate TPT pro
 - [openpyxl](https://pypi.org/project/openpyxl/)
 
 Install dependencies:
-```bash
-pip install selenium webdriver-manager openpyxl
+
+    ```bash
+    pip install selenium webdriver-manager openpyxl
+
+
 
 
 ### If your Python path is different
