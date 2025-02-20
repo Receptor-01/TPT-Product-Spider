@@ -65,13 +65,13 @@ If your Python path is different (like `/opt/homebrew/bin/python3`), use that pa
 
     ```bash
    python `spider-1-script.py`
-
+   
 
 or
 
-
     ```bash
    python `spider-2-script.py`
+
 
 
 
