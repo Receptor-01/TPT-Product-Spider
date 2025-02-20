@@ -1,4 +1,4 @@
-# TPT SPIDER
+<h1 align="center"> TPT SPIDER </h1>
 
 ![alt text](<TPT-spider-Cover IMAGE.jpg>)
 
