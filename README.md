@@ -70,7 +70,7 @@ If your Python path is different (like `/opt/homebrew/bin/python3`), use that pa
 
 --- 
 
-## Scripts Description
+## Description and Output
 
 ### `spider-1-script.py`
 - **Purpose**: Scrapes product-level data (Title, Price, Grade Levels, Product Link) from all pages of your TPT store.  
