@@ -64,11 +64,6 @@ If your Python path is different (like `/opt/homebrew/bin/python3`), use that pa
 
     ```bash
    python `spider-1-script.py`
-
-
-      or
-
-    ```bash
    python `spider-2-script.py`
 
 
@@ -81,6 +76,7 @@ If your Python path is different (like `/opt/homebrew/bin/python3`), use that pa
 `spider-1-script.py`
 
 Purpose: Scrapes product-level data (Title, Price, Grade Levels, Product Link) from all pages of your TPT store.
+
 Output: Writes to Spider-2-Data.xlsx, creating or updating columns for each new scrape to track price changes over time.
 spider-2-script.py
 Purpose: Scrapes store-wide data (5-Star Rating, Number of Reviews, Followers, and Number of Products).
