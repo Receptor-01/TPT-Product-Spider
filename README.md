@@ -14,7 +14,8 @@ These two **Python** scripts enable you to scrape essential data from your **Tea
 
 
 
-## Table of Contents
+<h2 align="center"> Table of Contents </h2>
+
 1. [Overview](#overview)  
 2. [Features](#features)  
 3. [Installation & Requirements](#installation--requirements)  
@@ -29,14 +30,15 @@ These two **Python** scripts enable you to scrape essential data from your **Tea
 ---
 
 
-## Overview
+<h2 align="center"> Overview </h2>
 These scripts rely on **Selenium** and **webdriver_manager** to navigate TPT programmatically, and store data in **Excel** (XLSX) files. You can track ongoing store and product data with repeated runs.
 
 
 ---
 
 
-## Features
+<h2 align="center"> Features </h2>
+
 - **Automated Web Scraping**: No manual effort required once set up.  
 - **Excel Integration**: Outputs neatly into `.xlsx` files.  
 - **Configurable**: Easily change store URLs and workbook names.  
@@ -46,7 +48,7 @@ These scripts rely on **Selenium** and **webdriver_manager** to navigate TPT pro
 ---
 
 
-## Installation & Requirements
+<h2 align="center"> Installation & Requirements </h2>
 
 - **Python 3.7+** (3.9 or higher recommended)  
 - [Selenium](https://pypi.org/project/selenium/)  
@@ -57,13 +59,13 @@ Install dependencies:
 
     ```bash
     pip install selenium webdriver-manager openpyxl
-
+    ```
 
 ---
 
 
 
-## Usage
+<h2 align="center"> Usage </h2>
 
 1. **Clone or Download** this repository.
 2. **Edit** each scripts `store_url` variable to match your TPT store URL.
@@ -72,14 +74,14 @@ Install dependencies:
     ```bash
    python `spider-1-script.py`
    python `spider-2-script.py`
-
+   ```
 
 
 --- 
 
 
 
-## Description and Output
+<h2 align="center"> Description and Output </h2>
 
 ### `spider-1-script.py`
 - **Purpose**: Scrapes product-level data (Title, Price, Grade Levels, Product Link) from all pages of your TPT store.  
@@ -105,7 +107,7 @@ Install dependencies:
 
 
 
-## Data Storage
+<h2 align="center"> Data Storage </h2>
 
 - **Spider-2-Data.xlsx**: Stores product-level details. Each run adds new columns for updated price info, so you can track historical changes.  
 - **Spider-1-Data.xlsx**: Stores store-wide stats. Each run creates a new row with fresh metrics and a timestamp.
@@ -116,7 +118,7 @@ Install dependencies:
 
 
 
-## Troubleshooting
+<h2 align="center"> Troubleshooting
 
 - **Chrome Driver Issues**: Ensure that `webdriver_manager` is installed. If you’re behind a firewall, you may need special permissions.  
 - **Excel File Errors**: Close the Excel file if it’s open; ensure you have read/write permissions.  
