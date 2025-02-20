@@ -59,7 +59,7 @@ Install dependencies:
 
     ```bash
     pip install selenium webdriver-manager openpyxl
-```
+   ```
 
 ---
 
